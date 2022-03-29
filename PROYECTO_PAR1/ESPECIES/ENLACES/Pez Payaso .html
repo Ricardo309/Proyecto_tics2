@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-Type" content="text/html" charset="UTF-8" 
+        http-equiv="X-UA-Compatible" content="IE=edge" name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>(Pez Payaso)</title>
+        <style>
+body{
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+p{
+font-family: Arial, Helvetica;
+color: aliceblue;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: aliceblue;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: "open sans";
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: blueviolet;
+    transition: all .4s;
+}
+
+/*submenu*/
+.submenu{
+    position: absolute;
+    background-color:aliceblue;
+    width: 120%;
+    visibility: hidden;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: rgb(7, 7, 7);
+    font-family: "open sans";
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+        </style>
+    </head>
+
+    <body background="IMG/PAGINA3.png">
+        <header>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="../../index.html">INICIO</a></li>
+                    <li><a href="#">ESPECIES</a>
+                        <ul class="submenu">
+                            <li><a href="../AVES.html">AVES</a></li>
+                            <li><a href="../ANFIBIOS.html">ANFIBIOS</a></li>
+                            <li><a href="../MAMIFEROS.html">MAMIFEROS</a></li>
+                            <li><a href="../PECES.html">PECES</a></li>
+                            <li><a href="../REPTILES.html">REPTILES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../INTEGRANTES.html">INTEGRANTES</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr color="aliceblue" size="8" width="100%">
+        <h1 align="center">Pez Payaso</h1>
+        <hr color="aliceblue" size="8" width="100%">
+        <br>
+        <h2>Características</h2>
+        <p>El pez payaso, reconocido fácilmente por sus brillantes colores blancos y anaranjados, es miembro del orden Perciformes, de la familia Pomacentridae y de la subfamilia Amphiprioninae. También es llamado pez anémona, y en realidad se le llama así a todos los pertenecientes a dicha subfamilia. Por lo tanto, existen 30 especies de pez payaso.</p>
+        <br>
+        <img src="IMG_ANM/pezpayaso.jpg" width="320" height="190" border="2">
+        <h2>Alimentación</h2>
+        <p>El Pez payaso come pequeños invertebrados que caza en el agua, si bien su alimentación puede incluir pequeñas algas en ocasiones.</p>
+        <br>
+        <h2>Hábitat </h2>
+        <p>Se distribuyen en aguas poco profundas del Índico, el mar Rojo y el Pacífico occidental. El Pez payaso es uno de los peces preferidos por grandes y pequeños.</p>
+        <br>
+        <h2>Reproducción</h2>
+        <p>La fertilización en estos animales es externa, lo que significa que la hembra deja caer los huevos en el área de la anémona que se encuentra despejada. Una vez sucede lo anterior, el macho los fertiliza. Normalmente, este proceso se da al mediodía.</p>
+        <br>
+        <h2>Comportamiento</h2>
+        <p>Se trata de un pez de hábitos diurnos que descansa por la noche en su refugio. No preslenta picos de actividad durante el día, sino que los peces payaso se mantienen en movimiento mientras haya luz y buscan comida en las inmediaciones de sus hospedadoras.</p>
+        <br>
+    <div align="center">
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/cbY75s_nJqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <a href="../PECES.html"><img src="IMG_ANM/VOLVER.png" width="15%" height="15%"></a>
+    <br>
+    </body>
+</html>
